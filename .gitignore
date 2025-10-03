@@ -416,3 +416,22 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Backend
+*.dll
+*.exe
+bin/
+obj/
+.vs/
+*.user
+appsettings.Development.json
+
+# Frontend
+node_modules/
+dist/
+.env.local
+.env
+
+# General
+.DS_Store
+*.log
